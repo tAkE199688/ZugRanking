@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DBADC7E1BCB444600063329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBADC7D1BCB444600063329 /* AppDelegate.swift */; };
+		8DBADC801BCB444600063329 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBADC7F1BCB444600063329 /* ViewController.swift */; };
+		8DBADC831BCB444600063329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBADC811BCB444600063329 /* Main.storyboard */; };
+		8DBADC861BCB444600063329 /* ZugRanking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBADC841BCB444600063329 /* ZugRanking.xcdatamodeld */; };
+		8DBADC881BCB444600063329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBADC871BCB444600063329 /* Assets.xcassets */; };
+		8DBADC8B1BCB444600063329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBADC891BCB444600063329 /* LaunchScreen.storyboard */; };
+		8DBADC961BCB444600063329 /* ZugRankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBADC951BCB444600063329 /* ZugRankingTests.swift */; };
+		8DBADCA11BCB444600063329 /* ZugRankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBADCA01BCB444600063329 /* ZugRankingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBADC921BCB444600063329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBADC721BCB444600063329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBADC791BCB444600063329;
+			remoteInfo = ZugRanking;
+		};
+		8DBADC9D1BCB444600063329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBADC721BCB444600063329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBADC791BCB444600063329;
+			remoteInfo = ZugRanking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DBADC7A1BCB444600063329 /* ZugRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZugRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBADC7D1BCB444600063329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DBADC7F1BCB444600063329 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DBADC821BCB444600063329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DBADC851BCB444600063329 /* ZugRanking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZugRanking.xcdatamodel; sourceTree = "<group>"; };
+		8DBADC871BCB444600063329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DBADC8A1BCB444600063329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DBADC8C1BCB444600063329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBADC911BCB444600063329 /* ZugRankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZugRankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBADC951BCB444600063329 /* ZugRankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZugRankingTests.swift; sourceTree = "<group>"; };
+		8DBADC971BCB444600063329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBADC9C1BCB444600063329 /* ZugRankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZugRankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBADCA01BCB444600063329 /* ZugRankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZugRankingUITests.swift; sourceTree = "<group>"; };
+		8DBADCA21BCB444600063329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBADC771BCB444600063329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC8E1BCB444600063329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC991BCB444600063329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBADC711BCB444600063329 = {
+			isa = PBXGroup;
+			children = (
+				8DBADC7C1BCB444600063329 /* ZugRanking */,
+				8DBADC941BCB444600063329 /* ZugRankingTests */,
+				8DBADC9F1BCB444600063329 /* ZugRankingUITests */,
+				8DBADC7B1BCB444600063329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBADC7B1BCB444600063329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBADC7A1BCB444600063329 /* ZugRanking.app */,
+				8DBADC911BCB444600063329 /* ZugRankingTests.xctest */,
+				8DBADC9C1BCB444600063329 /* ZugRankingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBADC7C1BCB444600063329 /* ZugRanking */ = {
+			isa = PBXGroup;
+			children = (
+				8DBADC7D1BCB444600063329 /* AppDelegate.swift */,
+				8DBADC7F1BCB444600063329 /* ViewController.swift */,
+				8DBADC811BCB444600063329 /* Main.storyboard */,
+				8DBADC871BCB444600063329 /* Assets.xcassets */,
+				8DBADC891BCB444600063329 /* LaunchScreen.storyboard */,
+				8DBADC8C1BCB444600063329 /* Info.plist */,
+				8DBADC841BCB444600063329 /* ZugRanking.xcdatamodeld */,
+			);
+			path = ZugRanking;
+			sourceTree = "<group>";
+		};
+		8DBADC941BCB444600063329 /* ZugRankingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBADC951BCB444600063329 /* ZugRankingTests.swift */,
+				8DBADC971BCB444600063329 /* Info.plist */,
+			);
+			path = ZugRankingTests;
+			sourceTree = "<group>";
+		};
+		8DBADC9F1BCB444600063329 /* ZugRankingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBADCA01BCB444600063329 /* ZugRankingUITests.swift */,
+				8DBADCA21BCB444600063329 /* Info.plist */,
+			);
+			path = ZugRankingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBADC791BCB444600063329 /* ZugRanking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBADCA51BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRanking" */;
+			buildPhases = (
+				8DBADC761BCB444600063329 /* Sources */,
+				8DBADC771BCB444600063329 /* Frameworks */,
+				8DBADC781BCB444600063329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZugRanking;
+			productName = ZugRanking;
+			productReference = 8DBADC7A1BCB444600063329 /* ZugRanking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBADC901BCB444600063329 /* ZugRankingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBADCA81BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRankingTests" */;
+			buildPhases = (
+				8DBADC8D1BCB444600063329 /* Sources */,
+				8DBADC8E1BCB444600063329 /* Frameworks */,
+				8DBADC8F1BCB444600063329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBADC931BCB444600063329 /* PBXTargetDependency */,
+			);
+			name = ZugRankingTests;
+			productName = ZugRankingTests;
+			productReference = 8DBADC911BCB444600063329 /* ZugRankingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DBADC9B1BCB444600063329 /* ZugRankingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBADCAB1BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRankingUITests" */;
+			buildPhases = (
+				8DBADC981BCB444600063329 /* Sources */,
+				8DBADC991BCB444600063329 /* Frameworks */,
+				8DBADC9A1BCB444600063329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBADC9E1BCB444600063329 /* PBXTargetDependency */,
+			);
+			name = ZugRankingUITests;
+			productName = ZugRankingUITests;
+			productReference = 8DBADC9C1BCB444600063329 /* ZugRankingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBADC721BCB444600063329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZuGMensch;
+				TargetAttributes = {
+					8DBADC791BCB444600063329 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8DBADC901BCB444600063329 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8DBADC791BCB444600063329;
+					};
+					8DBADC9B1BCB444600063329 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8DBADC791BCB444600063329;
+					};
+				};
+			};
+			buildConfigurationList = 8DBADC751BCB444600063329 /* Build configuration list for PBXProject "ZugRanking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBADC711BCB444600063329;
+			productRefGroup = 8DBADC7B1BCB444600063329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBADC791BCB444600063329 /* ZugRanking */,
+				8DBADC901BCB444600063329 /* ZugRankingTests */,
+				8DBADC9B1BCB444600063329 /* ZugRankingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBADC781BCB444600063329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBADC8B1BCB444600063329 /* LaunchScreen.storyboard in Resources */,
+				8DBADC881BCB444600063329 /* Assets.xcassets in Resources */,
+				8DBADC831BCB444600063329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC8F1BCB444600063329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC9A1BCB444600063329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBADC761BCB444600063329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBADC801BCB444600063329 /* ViewController.swift in Sources */,
+				8DBADC861BCB444600063329 /* ZugRanking.xcdatamodeld in Sources */,
+				8DBADC7E1BCB444600063329 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC8D1BCB444600063329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBADC961BCB444600063329 /* ZugRankingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBADC981BCB444600063329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBADCA11BCB444600063329 /* ZugRankingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBADC931BCB444600063329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBADC791BCB444600063329 /* ZugRanking */;
+			targetProxy = 8DBADC921BCB444600063329 /* PBXContainerItemProxy */;
+		};
+		8DBADC9E1BCB444600063329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBADC791BCB444600063329 /* ZugRanking */;
+			targetProxy = 8DBADC9D1BCB444600063329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DBADC811BCB444600063329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBADC821BCB444600063329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DBADC891BCB444600063329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBADC8A1BCB444600063329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBADCA31BCB444600063329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DBADCA41BCB444600063329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBADCA61BCB444600063329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZugRanking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DBADCA71BCB444600063329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZugRanking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DBADCA91BCB444600063329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZugRankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZugRanking.app/ZugRanking";
+			};
+			name = Debug;
+		};
+		8DBADCAA1BCB444600063329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZugRankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZugRanking.app/ZugRanking";
+			};
+			name = Release;
+		};
+		8DBADCAC1BCB444600063329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZugRankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZugRanking;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8DBADCAD1BCB444600063329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZugRankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.zugmensch.ZugRankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZugRanking;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBADC751BCB444600063329 /* Build configuration list for PBXProject "ZugRanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBADCA31BCB444600063329 /* Debug */,
+				8DBADCA41BCB444600063329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBADCA51BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBADCA61BCB444600063329 /* Debug */,
+				8DBADCA71BCB444600063329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DBADCA81BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRankingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBADCA91BCB444600063329 /* Debug */,
+				8DBADCAA1BCB444600063329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DBADCAB1BCB444600063329 /* Build configuration list for PBXNativeTarget "ZugRankingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBADCAC1BCB444600063329 /* Debug */,
+				8DBADCAD1BCB444600063329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DBADC841BCB444600063329 /* ZugRanking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DBADC851BCB444600063329 /* ZugRanking.xcdatamodel */,
+			);
+			currentVersion = 8DBADC851BCB444600063329 /* ZugRanking.xcdatamodel */;
+			path = ZugRanking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DBADC721BCB444600063329 /* Project object */;
+}
